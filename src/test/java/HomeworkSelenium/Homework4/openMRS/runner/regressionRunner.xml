@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="openMRS Suite">
+    <test name="openMRS Test">
+        <parameter name="username" value="admin"></parameter>
+        <parameter name="password" value="Admin123"></parameter>
+        <parameter name="givenName" value="m"></parameter>
+        <parameter name="familyName" value="o"></parameter>
+        <parameter name="day" value="30"></parameter>
+        <parameter name="year" value="1991"></parameter>
+        <parameter name="address" value="1 facebook dr"></parameter>
+        <parameter name="city" value="Des Plaines"></parameter>
+        <parameter name="state" value="IL"></parameter>
+        <parameter name="country" value="USA"></parameter>
+        <parameter name="postalCode" value="60018"></parameter>
+        <parameter name="phoneNumber" value="9876543210"></parameter>
+        <parameter name="patientFullName" value="m o"></parameter>
+        <parameter name="expectedName" value="Name: m, o"> </parameter>
+
+        <classes>
+            <class name="HomeworkSelenium.Homework4.openMRS.tests.LoginTest"></class>
+            <class name="HomeworkSelenium.Homework4.openMRS.tests.PatientRegisterTest"></class>
+        </classes>
+    </test>
+</suite>

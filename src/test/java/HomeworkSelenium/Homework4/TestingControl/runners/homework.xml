@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="homework4">
+    <test name="homework4">
+        <classes>
+            <class name="HomeworkSelenium.Homework4.TestingControl.tests.TestCountries"></class>
+        </classes>
+    </test>
+</suite>

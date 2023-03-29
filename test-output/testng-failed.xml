@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [openMRS Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="openMRS Test(failed)">
+    <parameter name="country" value="USA"/>
+    <parameter name="address" value="1 facebook dr"/>
+    <parameter name="patientFullName" value="m o"/>
+    <parameter name="year" value="1991"/>
+    <parameter name="city" value="Des Plaines"/>
+    <parameter name="givenName" value="m"/>
+    <parameter name="postalCode" value="60018"/>
+    <parameter name="expectedName" value="Name: m, o"/>
+    <parameter name="password" value="Admin123"/>
+    <parameter name="phoneNumber" value="9876543210"/>
+    <parameter name="familyName" value="o"/>
+    <parameter name="state" value="IL"/>
+    <parameter name="day" value="30"/>
+    <parameter name="username" value="admin"/>
+    <classes>
+      <class name="HomeworkSelenium.Homework4.openMRS.tests.PatientRegisterTest">
+        <methods>
+          <include name="registerPatientFunctionality" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- HomeworkSelenium.Homework4.openMRS.tests.PatientRegisterTest -->
+    </classes>
+  </test> <!-- openMRS Test(failed) -->
+</suite> <!-- Failed suite [openMRS Suite] -->
